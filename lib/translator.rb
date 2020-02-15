@@ -12,9 +12,9 @@ def load_library(file_path)
     # hash["get_emoticon"][emoticon_array] = emoticon_array
     #hash = {
       # "get_emoticon" => {
-      #   :get_english_meaning => japanese_emoticon
+      #   :English emoticon => japanese_emoticon
       # }
-    }
+    # }
   end 
   hash 
 end
