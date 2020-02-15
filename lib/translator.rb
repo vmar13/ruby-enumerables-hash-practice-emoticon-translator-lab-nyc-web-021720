@@ -14,8 +14,8 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  load_library(file_path)
-  hash["get_emoticon"][emoticon_array]
+  emoticon_hash = load_library(file_path)
+  if emoticon_hash["get_emoticon"][emoticon_array]
 end
 
   #returns the Japanese equivalent of an English grinning (FAILED - 3)
