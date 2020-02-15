@@ -10,6 +10,11 @@ def load_library(file_path)
   emoticons.each do |meaning, emoticon_array|
     hash["get_meaning"][emoticon_array[1]] = meaning
     # hash["get_emoticon"][emoticon_array] = emoticon_array
+    #hash = {
+      "get_emoticon" => {
+        :get_english_meaning => japanese_emoticon
+      }
+    }
   end 
   hash 
 end
