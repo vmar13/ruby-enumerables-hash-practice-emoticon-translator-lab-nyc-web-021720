@@ -8,8 +8,8 @@ def load_library(file_path)
   hash["get_emoticon"] = {}
   emoticons.each do |meaning, emoticon_array|
     hash["get_meaning"][emoticon_array[1]] = meaning
-    binding.pry 
     hash["get_emoticon"][emoticon_array[0]] = emoticon_array[1]
+    binding.pry 
   end 
   hash 
 end
