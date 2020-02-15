@@ -27,8 +27,7 @@ def get_english_meaning(file_path, emoticon)
   if emoticon_hash["get_meaning"][emoticon].nil?
     "Sorry, that emoticon was not found"
   else 
-    emoticon_hash["get_emoticon"][emoticon]
+    emoticon_hash["get_meaning"][emoticon]
   end 
 end
   
-end
