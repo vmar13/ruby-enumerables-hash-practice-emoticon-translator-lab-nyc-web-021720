@@ -22,11 +22,8 @@ def get_japanese_emoticon(file_path, emoticon)
   end 
 end
 
-  #returns the Japanese equivalent of an English grinning (FAILED - 3)
-  # returns the Japanese equivalent of an English happy (FAILED - 4)
-  # returns the Japanese equivalent of an English sad (FAILED - 5)
-  # returns an apology message if the argument is not a known emoticon
+ 
 
-# def get_english_meaning
-#   # code goes here
-# end
+def get_english_meaning
+  # code goes here
+end
