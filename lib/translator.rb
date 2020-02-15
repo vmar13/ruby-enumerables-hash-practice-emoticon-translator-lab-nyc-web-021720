@@ -15,7 +15,10 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   emoticon_hash = load_library(file_path)
-  if emoticon_hash["get_emoticon"][emoticon_array]
+  emoticon_hash["get_emoticon"][emoticon]
+  if emoticon_hash["get_emoticon"][emoticon].nil?
+    "Sorry, that emoticon was not found"
+  end 
 end
 
   #returns the Japanese equivalent of an English grinning (FAILED - 3)
